@@ -12,7 +12,6 @@ import { WelcomeComponent } from './home/welcome.component';
 import { ProductDetailGuard } from './products/product-guard.service';
 import { ProductDetailComponent } from './products/product-detail.component';
 
-
 @NgModule({
   imports: [ BrowserModule, FormsModule, HttpModule, 
     RouterModule.forRoot([
