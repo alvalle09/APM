@@ -6,6 +6,7 @@ import { Component, OnChanges, Input,
     templateUrl: 'app/shared/star.component.html',
     styleUrls: ['app/shared/star.component.css']
 })
+
 export class StarComponent implements OnChanges{
     @Input() rating: number;
     starWidth: number;    
