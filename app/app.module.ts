@@ -8,7 +8,6 @@ import { RouterModule } from '@angular/router';
 import { AppComponent }  from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 
-
 @NgModule({
   imports: [ BrowserModule, HttpModule, ProductModule,
     RouterModule.forRoot([
